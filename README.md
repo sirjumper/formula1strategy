@@ -11,6 +11,7 @@ Feature #2:
 During the race, predict the next lap time based on past laptimes. Potentially use linear or polynomial regression
 Input: predicted lap pace, actual lap pace
 Output: Next lap pace, predicted lap pace for the next n laps
+2a: Is the driver following or being held up by another car and account for that. Free air vs behind traffic and % of traffic time
 
 Feature #3:
 Determine if the driver should pit. Inputs are predicted next lap pace
